@@ -1,0 +1,27 @@
+// Count the array elements which have even digits - initialize cnt 
+// To get cnt I need to check every element of array - use for loop to check
+// Use condition to count digits of array ele - store in count (initialize within the loop since it needs to reset)
+// Use if else condition to check if count is even or not - store in cnt
+//return cnt
+
+
+class Solution {
+    public int findNumbers(int[] arr) {
+    
+        int cnt=0;
+        for(int i=0;i<arr.length;i++){
+            int count=0;
+            int n=arr[i];
+            while(n>0){
+                count++;
+                n=n/10;
+            }
+            if(count%2==0) cnt++;
+            else cnt+=0;
+        }
+        return cnt;
+    }
+}
+
+//Time Complexity: O(n)
+//Space Complexity: O(1)
