@@ -1,3 +1,5 @@
+//1480. Running Sum of 1D Array
+
 //Take another array to store running sum
 //Initialize first element
 //Run the loop, add previous sum to the current element
