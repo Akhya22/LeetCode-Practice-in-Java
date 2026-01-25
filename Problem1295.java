@@ -1,3 +1,5 @@
+//1295. Find Numbers with Even Number of Digits
+
 // Count the array elements which have even digits - initialize cnt 
 // To get cnt I need to check every element of array - use for loop to check
 // Use condition to count digits of array ele - store in count (initialize within the loop since it needs to reset)
