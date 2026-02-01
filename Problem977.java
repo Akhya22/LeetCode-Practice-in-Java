@@ -1,4 +1,4 @@
-//977. Squared of a Sorted Array
+//977.Squares of a Sorted Array
 
 //Sqaure the elements and store in their respective positions while looping
 //Sort the array and return
